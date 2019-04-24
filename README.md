@@ -5,7 +5,15 @@ A Buildpack that allows you to deploy Common Lisp applications on the Heroku inf
 
 Original work by Mike Travers, mt@hyperphor.com
 
-## Changes 
+## Changes in this fork
+
+* Updated SBCL and Clozure CL binary distributions (1.5.1 and 1.11.5, respectively)
+
+> Admittedly, I know nothing about getting machines to download from SourceForge,
+but as long as the JAIST mirror is around, this should work fine.
+
+## Changes (by jsmpereira)
+
 * Support for SBCL and Hunchentoot.
 
 > Example app at https://github.com/jsmpereira/heroku-cl-example
