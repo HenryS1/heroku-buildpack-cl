@@ -43,7 +43,7 @@ echo "-----> CL_IMPL: $CL_IMPL"
 case $CL_IMPL in
   sbcl)
     CL_PACKAGE="https://jaist.dl.sourceforge.net/project/sbcl/sbcl/1.5.1/sbcl-1.5.1-x86-64-linux-binary.tar.bz2"
-    DECOMPRESS="tar jzf - -C $CL_DIR"
+    DECOMPRESS="tar jxf - -C $CL_DIR"
     ;;
   ccl)
     S3_BUCKET="cl-heroku"
